@@ -21,8 +21,8 @@ This webpage will allow the user to enter an allergy score and display which all
 |--------|-----|------|
 | Enter an allergy score. | "1" | "eggs" |
 | Enter an allergy score. | "3" | "eggs and peanuts" |
-| Enter an allergy score. | "20" | "shellfish and tomatoes" |
 | Enter an allergy score. | "255" | "eggs, peanuts, shellfish, strawberries, tomatoes, chocolate, pollen, cats" |
+| Enter an allergy score. | "20" | "shellfish and tomatoes" |
 
 ## Known Bugs
 
