@@ -56,18 +56,18 @@
             $this->assertEquals("cats and pollen and chocolate and tomatoes and strawberries and shellfish and peanuts and eggs", $result);
         }
 
-        // function testshellfishtomatoes()
-        // {
-        //     //Arrange
-        //     $new_allergy = new Allergies;
-        //     $input = 20;
-        //
-        //     //Act
-        //     $result = $new_allergy->allergyScore($input);
-        //
-        //     //Assert
-        //     $this->assertEquals("shellfish and tomatoes", $result);
-        // }
+        function testshellfishtomatoes()
+        {
+            //Arrange
+            $new_allergy = new Allergies;
+            $input = 20;
+
+            //Act
+            $result = $new_allergy->allergyScore($input);
+
+            //Assert
+            $this->assertEquals("tomatoes and shellfish", $result);
+        }
     }
 
 
